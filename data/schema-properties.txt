@@ -1,0 +1,3 @@
+http://schema.org/version
+http://schema.org/about
+http://schema.org/dateModified
