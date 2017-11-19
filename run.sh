@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-cd $(dirname "$0")
+cd "$(dirname "$0")"
 
 out="${1%%/}"
 parallel -j 3 -L 10 --eta "mvn exec:java -Dexec.args=\" \
